@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0e68c;
+            margin: 0;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 3rem;
+            color: #ff69b4;
+            animation: colorChange 2s infinite alternate;
+        }
+        @keyframes colorChange {
+            from {color: #ff69b4;}
+            to {color: #ff4500;}
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Birthday!</h1>
+</body>
+</html>
